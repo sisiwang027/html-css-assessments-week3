@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Welcom to Job Application!</h1>
+
+<!-- your html goes here -->
+  <form action="application-success.html" method="POST" >
+    <label class="col-sm-2" name="firstname">First Name:</label>
+      <input class="col-sm-3" type="text" name="firstname" required>
+    <br><br>
+    <label class="col-sm-2" name="lastname">Last Name:</label>
+      <input class="col-sm-3" type="text" name="lastname" required>
+    <br><br>
+    <label class="col-sm-2" name="salary">Salary (enter number):</label>
+      <input class="col-sm-3" type="number" name="salary" required>
+    <br><br>
+    <label class="col-sm-2">Job Title:</label>
+      <select class="col-sm-3" name="jobtitle" required>
+        <option value="softengineer">Software Engineer</option>
+        <option value="qa">QA Engineer</option>
+        <option value="productmanager">Product Manager</option>
+      </select>
+    <br><br>
+    <input class="col-sm-2" type="submit">
+  </form>
+  <br><br>
+  <label name="instruction">welcome to our job application system.</label>
+
+  
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
